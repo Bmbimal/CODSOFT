@@ -1,82 +1,71 @@
 *{
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
     font-family: sans-serif;
 }
-header{
-    width: 100%;
+
+.hero{
+    position: relative;
+    width:100%;
     height: 100vh;
-    background: url(file:///D:/Codsoft%20Internship/Landing%20Page/background.jpeg);
-    background-size: cover;
+    background: #eff4fd;
+}
+.LOGO{
+    width: 150px;
+    height: 150px;
 }
 
 nav{
-    width: 100%;
-    height: 100px;
-    color: white;
     display: flex;
-    justify-content: space-around;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0 ;
     align-items: center;
+    justify-content: space-between;
 }
 
-.logo{
-    font-size: 35px;
-    letter-spacing: 2px;
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
 }
-.menu a{
+
+nav ul li a{
     text-decoration: none;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.menu a:hover{
-    color: orange;
-    font-size: 30px;
-}
-
-button{
-    background-color: aquamarine;
-    color: white;
-    cursor: pointer;
-    font-size: 20px;
-}
-button:hover{
-    font-size: 35px;
-    font-weight: bold;
-    border-radius: 10px;
-
-}
-
-.Text{
-    max-width: 650px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-}
-
-.Text span{
-    letter-spacing: 5px;
-}
-.Text h1{
-    font-size: 3.5em;
-}
-.Text a{
-    text-decoration: none;
-    background: indianred;
-    color: white;
-    letter-spacing: 5px;
-
-}
-
-p{
-    font-size: 25px;
     color: black;
-    font-style: italic;
-    text-align: center;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detail{
+    margin-left: 8%;
+    margin-top: 15%;
+
+}
+
+.detail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+
+}
+
+#detail p{
+    color: #555;
+    line-height: 22px;
+
+}
+
+.detail a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
 }
