@@ -1,49 +1,82 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
+    font-family: sans-serif;
 }
-.container{
+header{
     width: 100%;
     height: 100vh;
-    background-color: #6ed5f1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: url(file:///D:/Codsoft%20Internship/Landing%20Page/background.jpeg);
+    background-size: cover;
 }
-.calculator{
-    background-color: gray;
-    padding: 20px;
-    border-radius: 10px;
-}
-.calculator form input{
-    border: 0;
-    outline: 0;
-    height: 60px;
-    width: 60px;
-    border-radius: 15px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(9, 43, 233, 0.2);
-font-weight: bold;
-font-size: large;
-background: transparent;
-cursor: pointer;
-    margin: 10px;
 
-}
-form .display{
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 0;
+nav{
+    width: 100%;
+    height: 100px;
     color: white;
-    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: orange;
     font-size: 30px;
 }
-form .display input{
-    text-align: right;
-    flex: 1;
-    font-size: 45px;
-    box-shadow: none;
-    font-weight: bold;
+
+button{
+    background-color: aquamarine;
     color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.Text{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.Text span{
+    letter-spacing: 5px;
+}
+.Text h1{
+    font-size: 3.5em;
+}
+.Text a{
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    letter-spacing: 5px;
+
+}
+
+p{
+    font-size: 25px;
+    color: black;
+    font-style: italic;
+    text-align: center;
 }
